@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(36, 52, 103);
+    align-items: center;
+    font-family: Arial, Sans serif;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: space-between;
+    text-align: right;
+    margin: 15px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+.fa-gear, .fa-angle-left{
+    color: white;
+    margin-left: 20px;
+}
+.fa-right-from-bracket{
+    color: white;
+    margin: 5px;
+    margin-left: 20px;
+}
+.profile{
+    text-align: center;
+    align-items: center;
+} 
+#pp{
+    border-radius: 50%;
+    width: 240px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;  
+    color: white;
+}
+#logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    margin-top: 0;
+    margin: 5px;
+}
+.fa-instagram, .fa-youtube{
+    color: red;
+}
+.fa-twitter {
+    color: blue;
+}
+.fa-linkedin{
+    color: blue;
+
+}
+.left{
+    text-align: center;
+}
+#first, #second, #third{
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    align-items: center;
+}
+.view-container{
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+#view-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fcd303;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.view-button:hover {
+    background-color: rgba(79, 43, 43, 0.29);
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: black;
+}
